@@ -1,0 +1,53 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #FFFDD0;
+}
+
+.container{
+    margin: auto;
+    max-width: 600px;
+    padding: 0 10px;
+    min-height: calc(100vh - 140px);
+}
+
+textarea{
+    height: 10vh;
+    display: block;
+    width: 100%;
+    padding: 5px 0 0 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+button{
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size:  16px;
+    background-color: rgb(173, 189, 154);
+}
+
+#output-text{
+    border: 1px solid black;
+    height: 10vh;
+    width: 100%;
+}
+
+footer{
+    margin: auto;
+    max-width: 600px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+footer h2{
+    text-align: center;
+}
+
+img{
+    margin-top: 10px;
+    width: 100%;
+    height: 50%;
+}
